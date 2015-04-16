@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Code Test 3</title>
+<head>
+	<link rel="stylesheet" href="css/base.css" />
+	<script src="js/users.js"></script>
+
+	<script>
+	function displayUsers(){
+
+		usersArray.forEach(function(users){
+			var tableRow = document.createElement("tr");
+			
+			users.forEach(function(user){
+				var tableCell = document.createElement("td");
+				tableCell.innerHTML = user;
+				tableRow.appendChild(tableCell);
+			});
+			table.appendChild(tableRow);
+		});
+	}
+	window.onload = displayUsers;
+
+	</script>
+<body>
+
+<table id="table">
+	<tr>
+		<th>Param</th>
+		<th>Param</th>
+		<th>Param</th>
+	</tr>
+</table>
+
+</body>
+
+</body>
+</html>
