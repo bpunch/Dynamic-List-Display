@@ -1,15 +1,43 @@
 /* Main Styles */
+$base-fonts: "Lato", "Helvetica", Arial, sans-serif;
+$gray: #ccc;
+$light-gray: #eee;
+
 body {
-	margin: 0;
+	margin: 20px;
 	padding: 0;
-	font-family: "Helvetica", Arial, sans-serif;
+	font-family: $base-fonts;
 	font-size: 14px;
 }
 
 .container {
-	width: 100%;	
+	width: 100%;
 	display: inline-block;
-	background-color: #eee;
+
+	.inner {
+		margin: 0 auto;
+	}
+}
+
+#usersTbl {
+	border-collapse: collapse;
+	background: $light-gray;
+
+	tr {
+
+		th {
+			text-align: left;
+			padding: 12px 8px;
+
+		}
+
+		td {
+			width: 25%;
+			padding: 12px 8px;
+			border-top: 1px solid $gray;
+			font-size: 12px;
+		}
+	}
 }
 
 ul {
@@ -30,21 +58,7 @@ ul {
 	}
 }
 
-#userTableDisplay ul:first-child {
-	font-weight: bold;
-	margin: 0 auto;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-@media screen and (max-width: 940px) {
-	
-	ul {
-		width: 100%;
-	}
-}
-
+/* Responsive */
+@media screen and (max-width: 940px) {}
 
 @media screen and (max-width: 768px) {}

@@ -3,3 +3,6 @@
 
 # Node.js Modules Directory
 node_modules/
+
+# Sass Cache
+.sass-cache/
