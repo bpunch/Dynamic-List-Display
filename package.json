@@ -1,0 +1,29 @@
+{
+  "name": "dynamic-list-diplay",
+  "version": "0.0.1",
+  "description": "Just displaying some tabulated data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bpunch@github.com/bpunch/Dynamic-List-Display.git"
+  },
+  "keywords": [
+    "javascript",
+    "sass",
+    "list"
+  ],
+  "author": "Bill Punch",
+  "license": "GPLv2 (or later)",
+  "bugs": {
+    "url": "https://github.com/bpunch/Dynamic-List-Display/issues"
+  },
+  "homepage": "https://github.com/bpunch/Dynamic-List-Display",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

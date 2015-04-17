@@ -1,0 +1,5 @@
+# .gitignore
+.DS_Store
+
+# Node.js Modules Directory
+node_modules/
